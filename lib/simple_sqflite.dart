@@ -7,7 +7,7 @@ class SimpleSqflite {
   ///  数据库的地址
   static String DBPath = "simplesqflite.db";
 
-  /// 修改数据库地址 无返回值
+  /// 修改数据库DB文件名称 无返回值
   Future<void> editDBPath(String dbName) async {
     DBPath = dbName + ".db";
   }

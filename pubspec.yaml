@@ -1,7 +1,7 @@
 name: simple_sqflite
 description: 对插件sqflite进行主要简化封装，您只需要输入sql语句即可
 version: 0.0.1
-homepage:
+homepage: https://github.com/liumingxing999/simple_sqflite
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  path: ^1.8.0
   sqflite: ^2.0.0+3
 
 dev_dependencies:
